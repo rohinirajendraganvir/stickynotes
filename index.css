@@ -1,0 +1,240 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.body{
+    background-color: grey;
+    height: 87.5vh;
+}
+
+.header{
+    background-color: rgb(36, 217, 230);
+    width: 80%;
+    height: 9vh;
+    margin-left: 9rem;
+    border-radius: 1rem;
+
+    
+
+}
+
+.htmltext{
+    display: flex;
+    flex-direction: row;
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr ;
+    justify-content: space-evenly;
+
+}
+.htmltext h1{
+    /* border: 2px solid black; */
+     display: inline;
+     margin-left: .5rem;    
+}
+.notes{
+    /* border: 2px solid black; */
+    /* display: inline; */
+    text-align: center;
+    margin-right: 5rem;
+}
+
+.fafa{
+    cursor: pointer;    
+}
+
+.fafa i:nth-child(1){
+    font-size: 36px;
+    color: darkgreen;
+    border-color: black;
+    border: 3px solid black;
+    background-color: #fff;
+    border-radius: 100%;
+    width: 1.9rem;
+    height: 2rem;
+    box-shadow: 2px 2px 5px black;
+}
+
+.t-icon{
+    position: relative;
+    /* border: 2px solid red; */
+    width: max-content;
+    left: 20rem;
+    align-self: center;
+}   
+
+.donate{
+    align-self: center;
+    position: relative; 
+    /* left: 18rem; */
+    /* bottom: 1rem; */
+}
+.donate button{
+    /* border: 2px solid green; */
+    font-size: 1.3rem;
+    background-color: rgb(11, 137, 247);
+    padding: .5rem;
+    cursor: pointer;
+}
+
+
+/*          home page */
+.homepage{
+background-color: ad6161b7;
+height: 80vh;
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr;
+/* align-content: space-around; */
+
+
+
+
+}
+.box1 { 
+    margin-top: 4rem;
+    margin-left: 10rem;
+    width: 15vw;
+    height:30vh ;
+    border: 5px solid rgb(12, 8, 8);
+    border-bottom-right-radius: 1rem;
+    background-color: rgb(21, 255, 0);
+    box-shadow: 5px 5px 10px rgb(255, 0, 170);
+   
+}
+.homepage h3{
+    text-align: center;
+}
+.box1 i{
+    position: relative;
+    left: 16.65rem;
+    bottom: 1rem;
+    width: min-content;
+    cursor: pointer;
+}
+
+.box2 { 
+    width: 15vw;
+    height:30vh ;
+    margin-top: 4rem;
+    margin-left: 1.15rem;
+    border: 5px solid rgb(8, 7, 7);
+    background-color: rgb(72, 165, 231);
+    border-bottom-left-radius: 1rem;
+    box-shadow: 5px 5px 10px hsl(40, 2%, 65%);
+}
+
+.box2 i{
+    position: relative;
+    left: 16.65rem;
+    bottom: 1rem;
+    width: min-content; 
+    cursor: pointer;
+}
+
+.box3 {
+    width: 15vw;    
+    height:30vh ;
+    margin-top: 4rem;
+    margin-right: 28.5rem;
+    border: 5px solid white;
+    background-color: rgb(18, 231, 231);
+    border-bottom-left-radius: 1rem;
+    box-shadow: 5px 5px 10px rgb(219, 167, 53);
+}
+.box3 i{
+    position: relative;     
+    left: 16.65rem;
+    bottom: 1rem;
+    width: min-content;
+    cursor: pointer;
+}       
+
+.box4 { 
+    position: relative;
+    right: 27rem;   
+    top: 4rem;  
+    width: 15vw;
+    height:30vh ;
+    border: 5px solid rgb(226, 218, 218);
+    background-color: rgb(255, 0, 179);
+    border-bottom-left-radius: 1rem;
+    box-shadow: 5px 5px 10px rgb(155, 153, 152);
+}
+.box4 i{
+    position: relative;
+    left: 16.65rem;
+    bottom: 1rem;
+    width: min-content;
+    cursor: pointer;
+}   
+.box5 { 
+    position: relative;     
+    bottom: .8rem;
+    left: 10rem;
+    width: 15vw;    
+    height:30vh ;   
+    margin-right: 10rem;
+    border: 5px solid rgb(245, 157, 157);
+    background-color: rgb(8, 24, 124);
+    border-bottom-right-radius: 1rem;
+    box-shadow: 5px 5px 10px rgb(213, 221, 247);
+}
+.box5 i{
+    position: relative;
+    left: 16.65rem;
+    bottom: 1rem;
+    width: min-content;
+    cursor: pointer;
+}   
+.box6 { 
+    position: relative;
+    bottom: 1rem;
+    left: 1.15rem;    
+    width: 15vw;        
+    height:30vh ;       
+    border: 5px solid rgb(223, 69, 69);
+    background-color: rgb(74, 46, 4);
+    border-bottom-left-radius: 1rem;
+    box-shadow: 5px 5px 10px rgb(98, 81, 3);
+}
+.box6 i{
+    position: relative;
+    left: 16.65rem;
+    bottom: .9rem;
+    width: min-content;
+    cursor: pointer;
+}
+.box7 { 
+    position: relative;
+    bottom: 1rem;
+    width: 15vw;
+    height:30vh ;
+    border-bottom-right-radius: 1rem;
+    border: 5px solid white;
+    background-color: rgb(238, 158, 38);
+    box-shadow: 5px 5px 10px rgb(214, 177, 11);
+}
+.box7 i{
+    position: relative;
+    left: 16.65rem;
+    bottom: 1rem;
+    width: min-content;
+    cursor: pointer;
+}
+.box8 { 
+    position: relative;
+    bottom: 1rem;
+    right: 27rem;        
+    width: 15vw;
+    height:30vh ;
+    border: 5px solid rgb(62, 61, 61);
+    background-color: rgb(231, 113, 140);
+    border-bottom-left-radius: 1rem;
+    box-shadow: 5px 5px 10px rgb(217, 196, 208);
+}
+.box8 i{
+    position: relative;
+    left: 16.65rem;
+    bottom: 1rem;
+    width: min-content;
+    cursor: pointer;
+}
